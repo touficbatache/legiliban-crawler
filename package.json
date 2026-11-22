@@ -1,0 +1,34 @@
+{
+  "name": "legiliban-crawler",
+  "version": "1.0.0",
+  "description": "Crawler for the Lebanese Parliament archive: session transcripts, deputies, councils and governments, exported to JSONL and SQLite (FTS5).",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "main": "parliament-crawler.ts",
+  "scripts": {
+    "crawl": "node parliament-crawler.ts"
+  },
+  "engines": {
+    "node": ">=22.18"
+  },
+  "keywords": [
+    "lebanon",
+    "parliament",
+    "crawler",
+    "arabic",
+    "open-data",
+    "sqlite"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/touficbatache/legiliban-crawler.git"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.8.0",
+    "cheerio": "^1.2.0",
+    "iconv-lite": "^0.7.2"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13"
+  }
+}

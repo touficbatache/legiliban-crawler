@@ -1,0 +1,13 @@
+# Dependencies
+node_modules/
+
+# Crawl output and checkpoints (large; published separately as release assets)
+output/
+crawl-state*.json
+*.tmp
+
+# Local env / OS / editor
+.env
+.DS_Store
+.vscode/
+.idea/
