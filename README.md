@@ -17,7 +17,7 @@ To decompress:
 zstd -d parliament.db.zst
 ```
 
-The snapshot holds 4,954 records:
+The snapshot holds 4,952 records. (`records.jsonl` has 4,954 lines because two pages were saved twice; the database keeps one copy of each.)
 
 | Record type | Count |
 | --- | ---: |
